@@ -1,0 +1,12 @@
+** LDA N1
+** ADD N2
+** STA N3
+** MEND **
+** LDA N1
+** ADD N2
+** STA N4
+** MEND **
+** LDA N1
+** ADD N2
+** STA N5
+** MEND **
