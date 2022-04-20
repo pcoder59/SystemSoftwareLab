@@ -1,0 +1,15 @@
+Step 1: Start
+Step 2: Enter Number of Processes
+Step 3: Enter Burst TIme for Each Process
+Step 4: Sort Process According to Descending order of Burst TIme
+Step 5: Set Waiting Time of First Process = 0
+Step 6: Set Turnaround Time of First Process as its Burst TIme
+Step 7: Repeat Steps 8 and 9 for Each of the next Processes
+Step 8: Set Wait Time = Wait Time of Previous Process + Burst TIme of Previous Process
+Step 9: Set Turnaround Time = Wait Time + Burst Time
+Step 10: Calculate Average Wait Time
+Step 11: Calculate Average Turnaround Time
+Step 12: Display Process, Burst Time, Wait Time and Turnaround Time for Each Process
+Step 13: Display Average Waiting Time
+Step 14: Display Average Turnaround Time
+Step 15: Stop
