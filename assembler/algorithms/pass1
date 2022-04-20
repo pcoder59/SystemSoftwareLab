@@ -1,0 +1,26 @@
+Step 1: Start
+Step 2: Open Input File in Read Mode
+Step 3: Open optab File in Read Mode
+Step 4: Open Output File In Write Mode
+Step 5: Open Symtab File in Write Mode
+Step 6: Read label, opcode and operand from Input File
+Step 7: If opcode != "START" go to Step 11
+Step 8: Save operand as starting address
+Step 9: Initialize locctr as operand
+Step 10: Read next label, opcode and operand from Input File. Then go to Step 12
+Step 11: Initialize locctr as 0
+Step 12: If opcode == "END" go to Step 25
+Step 13: If label != "**" go to Step 18
+Step 14: Read opcode from optab
+Step 15: Write locctr, label, opcode and operand to output file
+Step 16: Increment locctr by 3
+Step 17: Read Next label, opcode, operand and go to Step 12
+Step 18: Save label, locctr to symtab
+Step 19: Write locctr, label, opcode and operand to output file
+Step 20: If opcode == "WORD", increment locctr by 3
+Step 21: If opcode == "RESW", increment locctr by 3 * operand
+Step 22: If opcode == "BYTE", increment locctr by 1
+Step 23: If opcode == "RESB", increment locctr by operand
+Step 24: Read next label, opcode, operand and go to Step 12
+Step 25: Write locctr, ** END, starting address to output file
+Step 26: Stop
