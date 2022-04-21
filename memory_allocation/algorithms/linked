@@ -1,0 +1,13 @@
+Step 1: Start
+Step 2: Initialize File System
+Step 3: Set All Blocks as Unallocated
+Step 4: Enter Number of Blocks Already Allocated
+Step 5: Enter Blocks Allocated and Allocate those Blocks
+Step 6: Enter Starting Block and Length of File Till User Chooses to Exit. Then Go to Step 13
+Step 7: Check Starting Block is Allocated
+Step 8 If Yes Display Starting Block is Allocated and Go to Step 4 Else Go to Step 7
+Step 9: From Starting Block Repeat Steps 6 Till Blocks Upto The Length is Allocated. Then Go to Step 4
+Step 10: Check If Block is Allocated
+Step 11: If yes, Display Block Already Allocated and move to next block
+Step 12: If Not, Display Block Allocated and Move to Next Block
+Step 13: Stop
