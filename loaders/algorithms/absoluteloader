@@ -1,0 +1,18 @@
+Step 1: Start
+Step 2: Open Input File in Read Mode
+Step 3: Enter Program Name From User
+Step 3: Read First Line From Input File
+Step 4: Repeat Steps While Recordtype != E
+Step 5: If Recordtype != H, Go to Step 11
+Step 6: Read Program Name, Starting Address and Size from Read Line
+Step 7: If Program Name Does Not Match Name Entered By User, Go To Step 10
+Step 8: Display Name from Object File
+Step 9: Read Next Line from Input File and Go to Step 4
+Step 10: Display Program Name from Object File and Go to Step 17
+Step 11: Read Starting Address of Text Record
+Step 12: Read Object Code from Text Record
+Step 13: Display Address and Corresponding Object Code
+Step 14: Increment Address
+Step 15: Repeat Steps 12 - 14 Till the End of Text Record
+Step 16: Read next Line From Input FIle and Go to Step 4
+Step 17: Stop
