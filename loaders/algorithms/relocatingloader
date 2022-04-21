@@ -1,0 +1,18 @@
+Step 1: Start
+Step 2: Open Input File in Read Mode
+Step 3: Open Output File in Write
+Step 4: Read recordtype, program name, program starting address, program size from Input File
+Step 5: Input Actual Starting Address
+Step 6: Repeat Steps 6 - 17 While recordtype != E. Then Go to Step 18
+Step 7: If recordtype != H go to Step 9
+Step 8: Save Program Name and Starting address
+Step 9: Read Next Record and go to step 5
+Step 10: Read Starting Address of Text Record and Add Actual Address to it
+Step 11: Read Modification Record from Text Record
+Step 12: Convert Modification Record to Bitmask
+Step 13: Repeat Steps 14 - 16 Till End of Text Record. Then Go to Step 17
+Step 14: Read Object Code
+Step 15: If Bitmask == 1, Add Actual Address to Starting Address
+Step 16: Display Address and Object Code
+Step 17: Read the Next Record an Go to Step 6
+Step 18: Stop
