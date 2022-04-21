@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Initialize File System
+Step 4: Set All Files as Unallocated
+Step 5: Repeat Steps Till User Chooses to Exit. Then go to Step 10
+Step 6: Enter File Starting Block and Length
+Step 7: Check Blocks from Starting Block to Length is Unallocated
+Step 8: If Yes, Allocate the File, Display Allocated and go to Step 6.
+Step 9: Else Display File Cannot be Allocated and go to Step 6
+Step 10: Stop
